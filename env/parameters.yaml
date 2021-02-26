@@ -1,0 +1,15 @@
+adminUser:
+  password: local:k3v/adminUser:password
+  username: admin
+docker:
+  email: markus.meisterernst@cybercon.de
+  password: local:k3v/docker:password
+  url: https://index.docker.io/v1/
+  username: pingid22
+enableDocker: true
+pipelineUser:
+  email: markus.meisterernst@cybercon.de
+  token: local:k3v/pipelineUser:token
+  username: marmei21
+prow:
+  hmacToken: local:k3v/prow:hmacToken
